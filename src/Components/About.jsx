@@ -10,7 +10,7 @@ import React from "react";
  * About background image
  *
  * Below is a sample image. Upload the image of your choice into the "images"
- * directory and import here for use. Then, set imageAltText to string that 
+ * directory and import here for use. Then, set imageAltText to string that
  * represents what you see in that image.
  *
  * Need an image? Check out https://unsplash.com to download a image you
@@ -24,7 +24,7 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "I am a Web and mobile developer currently working in React,React native.I like to work on different programming projects.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
@@ -36,7 +36,33 @@ const skillsList = [
   "Inclusive design",
   "Focus group testing",
   "Mobile user interfaces",
-  "Graphic design",
+  "Accessibility",
+  "React",
+  "React Native",
+  "Node JS",
+  "MongoDB",
+  "SQL",
+  "NoSQL",
+  "DevOps",
+  "CI/CD",
+  "Azure",
+  "AWS",
+  "Google Cloud",
+  "Docker",
+  "Kubernetes",
+  "Microservices",
+  "REST APIs",
+  "GraphQL",
+  "Python",
+  "Java",
+  "C#",
+  "C++",
+  "C",
+  "JavaScript",
+  "TypeScript",
+  "HTML",
+  "CSS",
+  "SASS",
 ];
 
 /**
@@ -45,7 +71,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "I know one thing that, if a developer is capable of performing CRUD operations in any tech stack in any database then he/she is capable of building large scale applications. As some who has the knowledge of building things from the groud up can go a long way in building any scalable software.";
 
 const About = () => {
   return (
@@ -77,7 +103,24 @@ const About = () => {
           ))}
         </ul>
         <hr />
-        <p style={{ padding: "1rem 3rem 0" }}>{detailOrQuote}</p>
+        <p style={{ padding: "1rem 3rem 0" }}>
+          {detailOrQuote}
+          <br />
+          <a
+            style={{
+              color: "blue",
+              fontWeight: "bold",
+              textDecoration: "underline",
+              fontSize: 25,
+              fontFamily: "cursive",
+            }}
+            href="https://www.linkedin.com/newsletters/databases-are-not-difficult-6945124839913320448/?displayConfirmation=true"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Full Stack Dev Blog
+          </a>
+        </p>
       </div>
     </section>
   );
