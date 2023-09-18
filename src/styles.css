@@ -123,3 +123,8 @@ img.socialIcon {
   height: 30px;
   width: 30px;
 }
+
+#education {
+  background-color: #f5f5f5;
+  padding: 5rem 2.5rem;
+}
