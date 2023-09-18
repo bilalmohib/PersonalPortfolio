@@ -31,28 +31,28 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "How to perform CRUD operations on the Todo App using Next Js and Astra DB 🎉",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Hi fellow developers and database enthusiasts, today I would like to share a step-by-step guide following which you will be able to understand and use Apache Cassandra along with NextJS13 in your projects.",
+    url: "https://www.linkedin.com/pulse/how-perform-crud-operations-serverless-astra-db-next-build-bilal/?trackingId=aH5l9rR5RYqOEUZJKbW5hA%3D%3D&wt.mc_id=studentamb_283685",
   },
   {
-    title: "Web Development for Beginners",
+    title: "How to develop a RealTime Chat App using RedisJSON and Next JS from scratch.",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "We will be using Redis JSON and Node JS, and Express JS on the backend for the database part. While in the front end I will use Next JS with type script but you can use React JS also if you know about React.",
+    url: "https://www.linkedin.com/pulse/how-develop-realtime-chat-app-using-redisjson-next-js-muhammad-bilal/?trackingId=auzoPtWJTbWyro7z9KbHgg%3D%3D&wt.mc_id=studentamb_283685",
   },
   {
-    title: "My Resume Site",
+    title: "How to develop a Todo App in Next JS and Redis database from scratch",
     description:
       "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
     url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "How to develop a Todo App in Next JS and Redis database from scratch",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "As a beginner when I started working with CRUD operations I remember that I struggled to find the right commands to implement CRUD operations in an app using a database. That is the reason I have planned to write a complete guide on working with Redis database crud operations using redisJSON.",
+    url: "https://www.linkedin.com/pulse/how-develop-todo-app-next-js-redis-database-from-scratch-bilal/?trackingId=%2BdEr%2B3wNQyWUOkDIkvl6eQ%3D%3D&wt.mc_id=studentamb_283685",
   },
 ];
 
